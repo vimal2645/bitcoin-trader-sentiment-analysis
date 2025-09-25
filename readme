@@ -1,0 +1,40 @@
+# Bitcoin Trader Behavior Analysis
+
+## What This Project Does
+This project analyzes how Bitcoin traders perform during different market emotions (Fear vs Greed). I combined trading data with market sentiment data to find patterns that could help with trading strategies.
+
+## Files Included
+- `bitcoin_analysis.ipynb` - Main analysis notebook with all the code
+- `trader_data.csv` - Trading data from Hyperliquid exchange (211,224 trades)
+- `sentiment_data.csv` - Bitcoin Fear & Greed Index data (1,844 entries)
+- `README.md` - This explanation file
+
+## Key Findings
+- **Traders make 28x more profit during Greed periods** (53.99 avg vs 1.89 avg PnL)
+- **5x more trading happens during Greed** (11,292 vs 2,295 trades)
+- **Extreme Fear periods show highest individual profits** (205.82 average PnL)
+- **Market sentiment strongly affects trading behavior**
+
+## How to Run This Project
+1. Install Python and these libraries:
+
+pip install pandas matplotlib seaborn jupyter
+
+2. Open the notebook:
+
+
+3. Run all cells to see the analysis and charts
+
+## What I Used
+- **Python** for coding
+- **Pandas** for data handling
+- **Matplotlib/Seaborn** for charts
+- **Jupyter Notebook** for analysis
+
+## Summary
+This analysis shows that market sentiment (Fear/Greed) has a huge impact on how crypto traders behave and perform. During "Greed" periods, traders are much more active and profitable compared to "Fear" periods.
+
+## Assignment Context
+This project was completed for a Junior Data Scientist position focusing on crypto trading behavior insights.
+
+Created by vimal prakash
